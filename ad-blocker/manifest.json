@@ -1,0 +1,18 @@
+{
+    "name": "MG AdBlocker",
+    "version": "1.0",
+    "description": "AdBlocker project",
+    "permissions":["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "img1.jpg",
+        "48": "img2.png",
+        "128": "img3.png"
+    },
+    "manifest_version": 2
+}
